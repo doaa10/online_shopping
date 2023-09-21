@@ -52,3 +52,5 @@ Create a pull request to the original repository.
 
 # Acknowledgments:
 This project was created as a learning exercise for building e-commerce features with React.
+If you have any questions or suggestions, feel free to reach out to contact me at edoaa7059@gmail.com
+
