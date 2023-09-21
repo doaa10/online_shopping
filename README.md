@@ -16,19 +16,19 @@ Proceed to checkout.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-Installation:
-# Clone this repository to your local machine:
+# Installation:
+ Clone this repository to your local machine:
 
-# git clone https://github.com/your-username/online-shopping.git
-# Navigate to the project directory:
+ git clone https://github.com/your-username/online-shopping.git
+ Navigate to the project directory:
 
-# cd online-shopping
-# Install the dependencies:
+cd online-shopping
+ Install the dependencies:
 
 
 # Usage:
 Start the development server:
-# npm start
+ npm start
 Open your web browser and go to http://localhost:3000 to access the application.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
