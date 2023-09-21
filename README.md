@@ -6,7 +6,7 @@ This is a simple online shopping website built using React and React Router. It 
 
 # Features:
 View a list of clothing items.
-Click on an item to view its details.
+Click on an item to view its details.  
 Add items to the shopping cart.
 Adjust the quantity of items in the cart.
 Calculate and display the total price in the cart.
