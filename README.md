@@ -3,6 +3,7 @@ Description:
 This is a simple online shopping website built using React and React Router. It allows users to browse a collection of  clothing items, view product details, add products to the cart, and proceed to checkout. The project demonstrates basic e-commerce functionality, including product listing, cart management, and checkout.
 
 
+
 # Features:
 View a list of clothing items.
 Click on an item to view its details.
@@ -48,8 +49,6 @@ Push your changes to your forked repository.
 Create a pull request to the original repository.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# License:
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 # Acknowledgments:
 This project was created as a learning exercise for building e-commerce features with React.
