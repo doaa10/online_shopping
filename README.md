@@ -1,7 +1,6 @@
 # Project Title:  Online Shopping
 Description:
 This is a simple online shopping website built using React and React Router. It allows users to browse a collection of  clothing items, view product details, add products to the cart, and proceed to checkout. The project demonstrates basic e-commerce functionality, including product listing, cart management, and checkout.
-![Uploading image.png…]()
 
 
 # Features:
@@ -19,7 +18,7 @@ Proceed to checkout.
 # Installation:
  Clone this repository to your local machine:
 
- git clone https://github.com/your-username/online-shopping.git
+ git clone https://github.com/doaa10/online_shopping
  Navigate to the project directory:
 
 cd online-shopping
@@ -28,7 +27,7 @@ cd online-shopping
 
 # Usage:
 Start the development server:
- npm start
+npm start
 Open your web browser and go to http://localhost:3000 to access the application.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
