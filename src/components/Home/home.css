@@ -1,0 +1,481 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Calibri';
+}
+link{
+    list-style: none;
+    text-decoration: none;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    height: 100px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+
+.counter{
+ position: absolute;
+ background-color: red;
+ padding: 1px 4px;
+ border-radius: 50%;
+ font-size: 15px;
+ color: #fff;
+ right: 100px;
+}
+.black{
+    background-color: #111;
+    color:#fff ;
+    font-size:18px ;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+}
+.black h3{
+    margin-top: 8px;
+}
+
+.bar{
+    display: flex;
+    flex-direction: row;
+    padding: 7px 15px;
+    gap: 30%;
+    }
+.bar .right{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bar .right svg{
+    width: 20px;
+    position: absolute;
+    right: -35px;
+    top: -12px;
+    border-color: #BABABA;
+    }
+.right .search{
+    display: flex;
+    justify-content: space-between;
+}
+.line{
+    position: absolute;
+    border: .3px solid #c7c4c4;
+    width: 232px;
+    top: 30px;
+}
+.right span{
+    color: #BABABA;
+}
+
+.right input{
+    border: none;
+    font-size: 15px;
+    color: #BABABA;
+    opacity: .9;
+    padding-bottom: 8px;
+}
+.right input:focus{
+    outline: none;
+}
+.bar .center{
+    text-align: center;
+    margin-right: 120px;
+
+}
+.bar .center span{
+    font-size: 30px;
+    font-weight: 700;
+}
+.bar .left{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    gap: 12px;
+}
+
+
+
+
+
+/* menu */
+
+
+.menu{
+    display: flex;
+    justify-content: center;
+    width: 92%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+.menu ul li{
+    margin-left: 60px;
+    text-decoration: none;
+    
+}
+.menu ul li a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #111;
+}
+
+
+
+/*slider*/
+.slider{
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+.slider img{
+    width: 100%;
+    height: 473px;
+}
+.slider a {
+    color: #111;
+    z-index: 1000;
+}
+.slider .icon1{
+position: absolute;
+top: 50%;
+left: 3%;
+}
+.slider .icon2{
+    position: absolute;
+    top: 50%;
+    right: 3%;
+    }
+
+.slider h2{
+    color: #fff;
+    font-size: 32px;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 43%;
+    right: 35%;
+    z-index: 1000;
+}
+
+.slider .shadow{
+    
+    position: absolute;
+    height: 473px;
+    width: 100%;
+    background: rgb(79,90,124);
+    background: linear-gradient(336deg, rgba(193, 199, 218, 0.4) 35%, rgba(30,28,16,.4) 100%);
+    
+}
+
+
+
+
+/* categories */
+
+.categ{
+    margin-top: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.categ .head-categ{
+    font-size: 25px;
+    font-weight: 500;
+}
+.categ .container-categ{
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+
+}
+.categ .container-categ img{
+    width: fit-content;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 110px;
+    height: 110px;
+}
+
+.categ .content-categ{
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    margin-left: 290px;
+    gap: 30px;
+}
+.categ .content-categ span{
+    width: 80px;
+    display: flex;
+    padding-right: 30px;
+
+}
+/*
+https://img.freepik.com/free-photo/portrait-young-japanese-woman-with-jacket_23-2148870730.jpg?w=740&t=st=1689194629~exp=1689195229~hmac=2b7d26ff36555ce84af069baed8b9dcae0b0d7d39cce324afd4a2a1e903caa09
+https://img.freepik.com/free-photo/athletic-woman-by-beach-posing-while-stretching_23-2148781842.jpg?w=740&t=st=1689194910~exp=1689195510~hmac=6304554d4a54173568644fc416f2f5b0d8a98a685ecc0d839cd3b024f1f65f5a
+
+*/
+
+
+/* minSlider */
+.slid{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 30px 15px;
+
+}
+.slid .head{
+font-size: 35px;
+font-weight: 600;
+margin-bottom: 40px;
+margin-left: 27px;
+}
+.slid .imgContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.slid .imgContainer .con{
+    border-radius: 30px;
+    width: 300px; 
+
+}
+.slid .imgContainer .con .trendingImg{
+    border-radius: 30px;
+    max-width:300px;
+}
+
+.slid .prev {
+font-size: 25px;
+position: absolute;
+top: 50%;
+left: 5;
+}
+.slid .next {
+font-size: 25px;
+position: absolute;
+top: 50%;
+z-index: 1000;
+left: 98%;
+}
+.slid.trending .imgDesc{
+    padding: 10px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 250px;
+
+}
+ .slid.trending .desc,.price{
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: capitalize;
+ }
+.desc:nth-child(4){
+    margin-left: -24px;
+}
+.slid.trending .prices{
+    padding-left: 10px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 265px;
+
+}
+
+.slid.trending .prices .price:nth-child(3){
+    padding-left: 10px;
+}
+
+.slid.sale .imgDesc {
+    padding: 10px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 280px;
+    color: red;
+    font-weight: 600;
+    font-size: 17px;
+
+}
+.slid.sale .prices{
+    margin-left: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 285px;
+}
+.slid.slid.sale .price:nth-child(4){
+    margin-left: -22px;
+}
+.slid.sale .price {
+    text-decoration: line-through;
+    font-size: 15px;
+    font-weight: 500;
+}
+.circles{
+    margin-top: 15px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    text-align: center;
+    
+}
+.circle {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: lightgray;
+  }
+  
+  .circle.active {
+    background-color: rgb(49, 48, 48);
+  }
+  
+
+  /*  summer */
+
+.summerContainer{
+    background-color: rgb(125, 141, 62,32%);
+    padding: 60px;
+}
+  .centerCont{
+    display: flex;
+    gap: 30px;
+  }
+ 
+  .summerContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .summerContent .summerTitle{
+    font-size: 60px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  .summerContent span {
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+
+  }
+  .summerContent button{
+    border-radius: 60px;
+    background-color: rgba(255, 255, 255, 0.151);
+    border: 2px solid #fff;
+    width: 180px;
+    padding: 10px 15px;
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+    margin-left: 80px;
+  }
+  .summerContent button a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .summerContent button:hover{
+    background-color: rgba(255, 255, 255, 0);
+
+  }
+
+
+
+  /*footer */
+
+
+  .footer{
+    width: 100%;
+    padding: 30px 0px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    gap: 200px;
+    background-color: rgb(112, 112, 112,10%);
+  }
+  .footer span{
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .footer>div{
+    display: flex;
+    flex-direction: column;
+
+  }
+   .footer li{
+    list-style: none;
+    padding-top: 18px;
+    cursor: pointer;
+    opacity: .9;
+    letter-spacing: 1px;
+  }
+ .footer ul{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer li:hover{
+   color: #4d4a4a;
+  }
+  .news{
+    margin-top: 40px;
+    margin-left: 38px;
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+  }
+  .news p {
+    opacity: .9;
+    letter-spacing: 1px;
+
+  }
+  .subscripe{
+    margin-top: 15px;
+    display: flex;
+
+  }
+  .subscripe input {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #9490907a;
+    padding: 7px 5px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    opacity: .9;
+
+  }
+  .subscripe button{
+    background-color: rgb(0, 0, 0,47%);
+    border: none;
+    color: #fff;
+    font-size: 13px;
+    padding: 6px 10px;
+  }
+  .subscripe input:focus{
+    outline: none;
+  }
+  .subscripe button:hover{
+    opacity: .8;
+  }
