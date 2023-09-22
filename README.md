@@ -4,6 +4,11 @@ This is a simple online shopping website built using React and React Router. It 
 
 
 
+
+![image](https://github.com/doaa10/online_shopping/assets/73131139/71c8b99b-50ff-4827-a21d-5f6404d8a086)
+
+
+
 # Features:
 View a list of clothing items.
 Click on an item to view its details.  
