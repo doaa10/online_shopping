@@ -7,6 +7,7 @@ This is a simple online shopping website built using React and React Router. It 
 
 ![image](https://github.com/doaa10/online_shopping/assets/73131139/71c8b99b-50ff-4827-a21d-5f6404d8a086)
 
+![image](https://github.com/doaa10/online_shopping/assets/73131139/edbb2e2a-f164-47ec-8fde-83636637902d)
 
 
 # Features:
